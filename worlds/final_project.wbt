@@ -1,0 +1,29 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/micromagic/mantis/protos/Mantis.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.02275327180803392 0.9982542290600981 -0.05450488772265319 0.7920420333789072
+  position -22.5579696802456 1.546338721740232 22.91255773219283
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 2000 1000
+}
+Mantis {
+  translation 0 0 0
+  rotation -0.010924870637085308 -0.03991010123911457 -0.9991435487559566 0
+  controller "GeneticAlgorithm"
+  extensionSlot [
+    GPS {
+    }
+  ]
+}
